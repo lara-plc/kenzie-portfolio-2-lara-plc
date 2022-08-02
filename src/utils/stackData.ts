@@ -4,7 +4,9 @@ import imgJS from "../public/static/img/stack/js.svg";
 import imgNode from "../public/static/img/stack/node.svg";
 import imgStyled from "../public/static/img/stack/styled.svg";
 import imgReact from "../public/static/img/stack/react.svg";
-import { FaVuejs } from "react-icons/fa";
+import { BiGitBranch } from "react-icons/bi";
+import { AiFillGithub } from "react-icons/ai";
+
 
 export const stackData = [
   {
@@ -31,5 +33,12 @@ export const stackData = [
     title: "React",
     img: imgReact,
   },
-  { title: "Vuejs", img: FaVuejs },
+  {
+    title: "Git",
+    img: BiGitBranch ,
+  },
+  {
+    title: "Github",
+    img: AiFillGithub ,
+  }
 ];
