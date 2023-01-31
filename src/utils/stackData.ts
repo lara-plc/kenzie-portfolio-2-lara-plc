@@ -6,6 +6,15 @@ import imgStyled from "../public/static/img/stack/styled.svg";
 import imgReact from "../public/static/img/stack/react.svg";
 import { BiGitBranch } from "react-icons/bi";
 import { AiFillGithub } from "react-icons/ai";
+import { TbBrandReactNative } from "react-icons/tb";
+import { BiGitPullRequest } from "react-icons/bi";
+import { SiMaterialui } from "react-icons/si";
+import { SiTailwindcss } from "react-icons/si";
+import { SiAngular } from "react-icons/si";
+import { RiVuejsLine } from "react-icons/ri";
+import { SiTypescript } from "react-icons/si";
+import { SiPython, SiDjango } from "react-icons/si";
+import { BiGitPullRequest } from "react-icons/bi";
 
 
 export const stackData = [
@@ -22,6 +31,10 @@ export const stackData = [
     img: imgJS,
   },
   {
+    title: "TS",
+    img: SiTypescript,
+  },
+  {
     title: "Node JS",
     img: imgNode,
   },
@@ -30,8 +43,52 @@ export const stackData = [
     img: imgStyled,
   },
   {
+    title: "Tailwind ",
+    img: SiTailwindcss,
+  },
+  {
+    title: "Material UI",
+    img: SiMaterialui,
+  },
+  {
     title: "React",
     img: imgReact,
+  },
+  {
+    title: "React Native",
+    img: TbBrandReactNative,
+  },
+  {
+    title: "Angular",
+    img: SiAngular,
+  },
+  {
+    title: "Vue",
+    img: RiVuejsLine,
+  },
+  {
+    title: "Python",
+    img: SiPython,
+  },
+  {
+    title: "Django",
+    img: SiDjango,
+  },
+  {
+    title: "C#",
+    img: RiVuejsLine,
+  },
+  {
+    title: "Java",
+    img: RiVuejsLine,
+  },
+  {
+    title: ".Net",
+    img: RiVuejsLine,
+  },
+  {
+    title: "ASP.Net",
+    img: RiVuejsLine,
   },
   {
     title: "Git",
@@ -40,5 +97,9 @@ export const stackData = [
   {
     title: "Github",
     img: AiFillGithub ,
+  }
+  {
+    title: "GitFlow",
+    img: BiGitPullRequest ,
   }
 ];
