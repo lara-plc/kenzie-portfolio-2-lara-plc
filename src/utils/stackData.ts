@@ -13,8 +13,8 @@ import { SiTailwindcss } from "react-icons/si";
 import { SiAngular } from "react-icons/si";
 import { RiVuejsLine } from "react-icons/ri";
 import { SiTypescript } from "react-icons/si";
-import { SiPython, SiDjango } from "react-icons/si";
-import { BiGitPullRequest } from "react-icons/bi";
+import { SiPython, SiDjango, SiCsharp, SiExpress, SiMysql, SiPostgresql, SiSqlite, SiMongodb,SiDocker, SiAmazonaws } from "react-icons/si";
+import { FaJava } from "react-icons/fa";
 
 
 export const stackData = [
@@ -37,6 +37,10 @@ export const stackData = [
   {
     title: "Node JS",
     img: imgNode,
+  },
+  {
+    title: "Express",
+    img: SiExpress,
   },
   {
     title: "Styled Components",
@@ -76,19 +80,35 @@ export const stackData = [
   },
   {
     title: "C#",
-    img: RiVuejsLine,
+    img: SiCsharp,
   },
   {
     title: "Java",
-    img: RiVuejsLine,
+    img: FaJava,
   },
   {
-    title: ".Net",
-    img: RiVuejsLine,
+    title: "MySQL",
+    img: SiMysql,
   },
   {
-    title: "ASP.Net",
-    img: RiVuejsLine,
+    title: "SQLite",
+    img: SiSqlite,
+  },
+  {
+    title: "PostgreSQL",
+    img: SiPostgresql,
+  },
+  {
+    title: "MongoDB",
+    img: SiMongodb,
+  },
+  {
+    title: "Docker",
+    img: SiDocker,
+  },
+  {
+    title: "AWS",
+    img: SiAmazonaws,
   },
   {
     title: "Git",
@@ -97,7 +117,7 @@ export const stackData = [
   {
     title: "Github",
     img: AiFillGithub ,
-  }
+  },
   {
     title: "GitFlow",
     img: BiGitPullRequest ,
